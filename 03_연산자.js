@@ -62,11 +62,11 @@
 // print("Fizz" * 1 % 2 == 0 * "Buzz" * i % 3 == 0 or i)
 
 //삼항 조건 연산자
-const varA = "안녕하세요";
-// 조건식 ? 참일 때 명령 수행 : 거짓일때 명령 수행
-typeof varA === "number"
-  ? console.log("문자자료형")
-  : console.log("문자 자료형이 아님");
+// const varA = "안녕하세요";
+// // 조건식 ? 참일 때 명령 수행 : 거짓일때 명령 수행
+// typeof varA === "number"
+//   ? console.log("문자자료형")
+//   : console.log("문자 자료형이 아님");
 
 let num = 1;
 let result = num % 2 === 0 ? "짝수" : "홀수";
