@@ -126,14 +126,14 @@
 // const greetingText = greeting("이정환");
 // console.log(greetingText);
 
-let isConfirm = true;
+// let isConfirm = true;
 
-function confirm(onYes, onNo) {
-  if (isConfirm) onYes();
-  else onNo();
-}
+// function confirm(onYes, onNo) {
+//   if (isConfirm) onYes();
+//   else onNo();
+// }
 
-confirm(
-  () => console.log("승인"),
-  () => console.log("거부"),
-);
+// confirm(
+//   () => console.log("승인"),
+//   () => console.log("거부"),
+// );
