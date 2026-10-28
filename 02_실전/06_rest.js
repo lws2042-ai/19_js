@@ -38,13 +38,11 @@
 
 // func(1, 2, 3, 4);
 
+// function func(...a, param, b) { //에러남 rest매개변수는 마지막에 와야함
+//   console.log(a);
+//   console.log(param);
+//   console.log(b);
 
-function func(...a, param, b) { //에러남 rest매개변수는 마지막에 와야함
-  console.log(a);
-  console.log(param);
-  console.log(b);
+// }
 
-}
-
-func(1, 2, 3, 4);
-
+// func(1, 2, 3, 4);
