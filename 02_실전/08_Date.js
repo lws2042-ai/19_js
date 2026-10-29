@@ -36,8 +36,34 @@
 // console.log(date.getHours());
 // console.log(date.getMilliseconds());
 
-let date = new Date(2000, 9, 10);
-date.setFullYear(2021);
-date.setMonth(10);
-date.setDate(11);
-console.log(date);
+// let date = new Date(2000, 9, 10);
+// date.setFullYear(2021);
+// date.setMonth(10);
+// date.setDate(11);
+// console.log(date);
+
+// const today = new Date(2000, 9, 10, 22);
+// console.log(today);
+// console.log(today.toString());
+
+// const today = new Date(2000, 9, 10, 22);
+// console.log(today.toLocaleString());
+
+function moveMonth(date, moveMonth) {
+  const curTimestamp = date.getTime();
+  const curMonth = date.getMonth();
+
+  const resDate = new Date(curTimestamp);
+  resDate.setMonth(curMonth + moveMonth);
+
+  return resDate;
+}
+
+const dateA = new Date("2000-10-10");
+// console.log("A:", dateA);
+
+const dateB = moveMonth(dateA, 1);
+// console.log("A:", dateB);
+
+const dateC = moveMonth(dateA, -1);
+console.log("C:", dateC);
